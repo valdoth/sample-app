@@ -13,6 +13,7 @@ gem "sprockets-rails"
 #gem "sqlite3", "~> 1.4"
 group :development, :test do
   gem 'sqlite3'
+  gem 'byebug'
 end
 group :production do
   gem 'pg'
